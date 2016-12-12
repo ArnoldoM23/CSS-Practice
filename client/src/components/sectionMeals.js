@@ -4,7 +4,7 @@ const SectionMeals = () => {
 
 	return(
 		<section className='section-meals'>
-		<ul className='meals-showcase'>
+		<ul className='meals-showcase clearfix'>
 			<li>
 				<figure className='meal-photo'>
 					<img src='../styles/img/1.jpg' alt='Korean bibimbap with egg and vegetables' />
@@ -18,7 +18,7 @@ const SectionMeals = () => {
 			<li>
 				<figure className='meal-photo'>
 					<img src='../styles/img/3.jpg' alt='Chicken breast steak with vegetables  
-// Autumn pumpkin soup' />
+						// Autumn pumpkin soup' />
 				</figure>
 			</li>
 			<li>
@@ -26,6 +26,8 @@ const SectionMeals = () => {
 					<img src='../styles/img/4.jpg' alt='Autumn pumpkin soup' />
 				</figure>
 			</li>
+		</ul>
+		<ul className='meals-showcase clearfix'>
 			<li>
 				<figure className='meal-photo'>
 					<img src='../styles/img/5.jpg' alt='Paleo beef steak with vegetables' />

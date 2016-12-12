@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SectionMeals from './sectionMeals.js';
+import SectionMeals from './sectionMeals';
+import SectionSteps from './sectionSteps';
 
 export default class FrontPage extends Component {
 	render(){
@@ -35,6 +36,7 @@ export default class FrontPage extends Component {
 			</section>
 
 			<SectionMeals />
+			<SectionSteps />
 			</div>
 		);
 	}
