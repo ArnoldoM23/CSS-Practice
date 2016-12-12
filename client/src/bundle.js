@@ -28931,6 +28931,10 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _sectionMeals = __webpack_require__(332);
+
+	var _sectionMeals2 = _interopRequireDefault(_sectionMeals);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28952,86 +28956,91 @@
 			key: 'render',
 			value: function render() {
 				return _react2.default.createElement(
-					'section',
-					{ className: 'section-features' },
+					'div',
+					null,
 					_react2.default.createElement(
-						'div',
-						{ className: 'row' },
+						'section',
+						{ className: 'section-features' },
 						_react2.default.createElement(
-							'h2',
-							null,
-							'Get food fast \u2014 not fast food'
+							'div',
+							{ className: 'row' },
+							_react2.default.createElement(
+								'h2',
+								null,
+								'Get food fast \u2014 not fast food'
+							),
+							_react2.default.createElement(
+								'p',
+								{ className: 'long-copy' },
+								'Hello, we\u2019re Omnifood, your new premium food delivery service.\xA0We know you\u2019re always busy. No time for cooking. So let us take care of that, we\u2019re really good at it, we promise!'
+							)
 						),
 						_react2.default.createElement(
-							'p',
-							{ className: 'long-copy' },
-							'Hello, we\u2019re Omnifood, your new premium food delivery service.\xA0We know you\u2019re always busy. No time for cooking. So let us take care of that, we\u2019re really good at it, we promise!'
+							'div',
+							{ className: 'row' },
+							_react2.default.createElement(
+								'div',
+								{ className: 'col span-1-of-4 box' },
+								_react2.default.createElement('i', { className: 'ion-ios-infinite-outline icon-big' }),
+								_react2.default.createElement(
+									'h3',
+									null,
+									'Up to 365 days/year'
+								),
+								_react2.default.createElement(
+									'p',
+									null,
+									'Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that\'s your style.'
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col span-1-of-4 box' },
+								_react2.default.createElement('i', { className: 'ion-ios-time-outline icon-big' }),
+								_react2.default.createElement(
+									'h3',
+									null,
+									'Ready in 20 minutes'
+								),
+								_react2.default.createElement(
+									'p',
+									null,
+									'You\'re only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you\'re 100% happy.'
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col span-1-of-4 box' },
+								_react2.default.createElement('i', { className: 'ion-ios-nutrition-outline icon-big' }),
+								_react2.default.createElement(
+									'h3',
+									null,
+									'100% organic'
+								),
+								_react2.default.createElement(
+									'p',
+									null,
+									'All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!'
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col span-1-of-4 box' },
+								_react2.default.createElement('i', { className: 'ion-ios-cart-outline icon-big' }),
+								_react2.default.createElement(
+									'h3',
+									null,
+									'Order anything'
+								),
+								_react2.default.createElement(
+									'p',
+									null,
+									'We don\'t limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It\'s up to you!'
+								)
+							)
 						)
 					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'row' },
-						_react2.default.createElement(
-							'div',
-							{ className: 'col span-1-of-4' },
-							_react2.default.createElement('i', { className: 'ion-ios-infinite-outline' }),
-							_react2.default.createElement(
-								'h3',
-								null,
-								'Up to 365 days/year'
-							),
-							_react2.default.createElement(
-								'p',
-								null,
-								'Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that\'s your style.'
-							)
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'col span-1-of-4' },
-							_react2.default.createElement('i', { className: 'ion-ios-time-outline' }),
-							_react2.default.createElement(
-								'h3',
-								null,
-								'Ready in 20 minutes'
-							),
-							_react2.default.createElement(
-								'p',
-								null,
-								'You\'re only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you\'re 100% happy.'
-							)
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'col span-1-of-4' },
-							_react2.default.createElement('i', { className: 'ion-ios-nutrition-outline' }),
-							_react2.default.createElement(
-								'h3',
-								null,
-								'100% organic'
-							),
-							_react2.default.createElement(
-								'p',
-								null,
-								'All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!'
-							)
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'col span-1-of-4' },
-							_react2.default.createElement('i', { className: 'ion-ios-cart-outline' }),
-							_react2.default.createElement(
-								'h3',
-								null,
-								'Order anything'
-							),
-							_react2.default.createElement(
-								'p',
-								null,
-								'We don\'t limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It\'s up to you!'
-							)
-						)
-					)
+					_react2.default.createElement(_sectionMeals2.default, null)
 				);
 			}
 		}]);
@@ -32714,6 +32723,115 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/***/ },
+/* 332 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var SectionMeals = function SectionMeals() {
+
+		return _react2.default.createElement(
+			'section',
+			{ className: 'section-meals' },
+			_react2.default.createElement(
+				'ul',
+				{ className: 'meals-showcase' },
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/1.jpg', alt: 'Korean bibimbap\xA0with egg and vegetables' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/2.jpg', alt: 'Simple italian pizza with cherry tomatoes\u2028' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/3.jpg', alt: 'Chicken breast steak with vegetables\xA0\u2028\n// Autumn pumpkin soup' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/4.jpg', alt: 'Autumn pumpkin soup' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/5.jpg', alt: 'Paleo beef steak with vegetables' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/6.jpg', alt: 'Healthy baguette with egg and vegetables' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/7.jpg', alt: 'Burger with cheddar and bacon\u2028' })
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						'figure',
+						{ className: 'meal-photo' },
+						_react2.default.createElement('img', { src: '../styles/img/8.jpg', alt: 'Granola with cherries and strawberries' })
+					)
+				)
+			)
+		);
+	};
+
+	exports.default = SectionMeals;
+
+	// 
+	// 
+	// 
+	// 
+
+	// (see image numbers in the assets folder)
 
 /***/ }
 /******/ ]);

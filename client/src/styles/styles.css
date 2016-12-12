@@ -34,10 +34,10 @@ section {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 h1 {
@@ -46,12 +46,66 @@ h1 {
 	color: #fff;
 	font-size: 240%;
 	word-spacing: 4px;
+	letter-spacing: 1px;
 }
 
 h2 {
 	font-size: 180%;
 	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
 }
+
+/*after: when you write after in css in means you are creating and element in this case its going to look like a small orange line*/
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #e67e22;
+	content: ' ';
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+h3 {
+	font-size:  110%;
+	margin-bottom: 15px;
+}
+
+.box {
+	padding: 1%;
+}
+
+.box p {
+	font-size: 90%;
+	line-height: 145%;
+}
+
+/*
+=============================================
+icon styles
+=============================================
+*/
+.icon-big {
+	font-size: 350%;
+	display: block;
+	color: #e67e22;
+	margin-bottom: 10px;
+}
+
+/*
+=============================================
+Paragraphs styles
+=============================================
+*/
+.long-copy {
+	line-height: 145%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 
 /*
 =============================================
@@ -154,6 +208,47 @@ Button styles
 .btn-ghost:active {
 	border: 1px solid #cf6d17;
 	color: #fff;
+}
+
+
+/*
+=============================================
+Button styles
+=============================================
+*/
+.section-meals {
+	padding: 0;
+}
+
+.meals-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+
+.meals-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.meal-photo img{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s;
+}
+
+
+.meal-photo img:hover {
+	transform: scale(1.03);
 }
 
 
