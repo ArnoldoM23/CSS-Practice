@@ -6,7 +6,15 @@ module.exports = {
     path: __dirname+'/src/',
     publicPath: '/src/',
     filename: 'bundle.js'
-},
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    })
+  ],
   module: {
     loaders: [{
       exclude: /node_modules/,
