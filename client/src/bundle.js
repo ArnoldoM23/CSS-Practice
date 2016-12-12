@@ -27251,7 +27251,80 @@
 		}, {
 			key: 'render',
 			value: function render() {
-				return _react2.default.createElement('nav', { className: 'navbar navbar-light' });
+				return _react2.default.createElement(
+					'header',
+					null,
+					_react2.default.createElement(
+						'nav',
+						null,
+						_react2.default.createElement(
+							'div',
+							{ className: 'row' },
+							_react2.default.createElement('img', { className: 'logo', src: '../styles/img/logo-white.png', alt: 'Omnifood-logo' }),
+							_react2.default.createElement(
+								'ul',
+								{ className: 'main-nav' },
+								_react2.default.createElement(
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: '#' },
+										'Food delivery'
+									)
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: '#' },
+										'How it works'
+									)
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: '#' },
+										'Our cities'
+									)
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									_react2.default.createElement(
+										'a',
+										{ href: '#' },
+										'Sign up'
+									)
+								)
+							)
+						)
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'hero-text-box' },
+						_react2.default.createElement(
+							'h1',
+							null,
+							'Goodbye junk food.',
+							_react2.default.createElement('br', null),
+							' Hello super healthy meals.'
+						),
+						_react2.default.createElement(
+							'a',
+							{ className: 'btn btn-full', href: '#' },
+							'I\'m hungry'
+						),
+						_react2.default.createElement(
+							'a',
+							{ className: 'btn btn-ghost', href: '#' },
+							'Show me more'
+						)
+					)
+				);
 			}
 		}]);
 
@@ -28878,7 +28951,88 @@
 		_createClass(FrontPage, [{
 			key: 'render',
 			value: function render() {
-				return _react2.default.createElement('div', { className: 'container' });
+				return _react2.default.createElement(
+					'section',
+					{ className: 'section-features' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'row' },
+						_react2.default.createElement(
+							'h2',
+							null,
+							'Get food fast \u2014 not fast food'
+						),
+						_react2.default.createElement(
+							'p',
+							{ className: 'long-copy' },
+							'Hello, we\u2019re Omnifood, your new premium food delivery service.\xA0We know you\u2019re always busy. No time for cooking. So let us take care of that, we\u2019re really good at it, we promise!'
+						)
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'row' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'col span-1-of-4' },
+							_react2.default.createElement('i', { className: 'ion-ios-infinite-outline' }),
+							_react2.default.createElement(
+								'h3',
+								null,
+								'Up to 365 days/year'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that\'s your style.'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'col span-1-of-4' },
+							_react2.default.createElement('i', { className: 'ion-ios-time-outline' }),
+							_react2.default.createElement(
+								'h3',
+								null,
+								'Ready in 20 minutes'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'You\'re only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you\'re 100% happy.'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'col span-1-of-4' },
+							_react2.default.createElement('i', { className: 'ion-ios-nutrition-outline' }),
+							_react2.default.createElement(
+								'h3',
+								null,
+								'100% organic'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!'
+							)
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'col span-1-of-4' },
+							_react2.default.createElement('i', { className: 'ion-ios-cart-outline' }),
+							_react2.default.createElement(
+								'h3',
+								null,
+								'Order anything'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'We don\'t limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It\'s up to you!'
+							)
+						)
+					)
+				);
 			}
 		}]);
 
