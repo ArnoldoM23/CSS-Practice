@@ -4,6 +4,7 @@ import SectionMeals from './sectionMeals';
 import SectionSteps from './sectionSteps';
 import SectionCities from './sectionCities';
 import SectionTestimonials from './sectionTestimonials';
+import SectionPlans from './sectionPlans';
 
 export default class FrontPage extends Component {
 	render(){
@@ -14,6 +15,7 @@ export default class FrontPage extends Component {
 				<SectionSteps />
 				<SectionCities />
 				<SectionTestimonials />
+				<SectionPlans />
 			</div>
 		);
 	}
